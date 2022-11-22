@@ -1,3 +1,4 @@
+import os, requests, time
 os.chdir("C:\\Users\\asraf\\OneDrive\\programming\\Python\\Practice")
 
 url = "https://raw.githubusercontent.com/TheP-Bot/pBot/main/version.info"
@@ -18,7 +19,3 @@ if newVersion != currentVersion:
 else:
 
    print("Leatest version!")
-
-
-
-   
