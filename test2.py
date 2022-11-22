@@ -1,4 +1,3 @@
-import os, requests, time
 os.chdir("C:\\Users\\asraf\\OneDrive\\programming\\Python\\Practice")
 
 url = "https://raw.githubusercontent.com/TheP-Bot/pBot/main/version.info"
@@ -14,7 +13,7 @@ if newVersion != currentVersion:
    file.write(code)
    file.close()
 
-   os.system("test2.py")
+   os.system("python test2.py")
 
 else:
 
