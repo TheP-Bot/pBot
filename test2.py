@@ -3,7 +3,7 @@ os.chdir("C:\\Users\\asraf\\OneDrive\\programming\\Python\\Practice")
 
 url = "https://raw.githubusercontent.com/TheP-Bot/pBot/main/version.info"
 
-currentVersion = "v1.0.1"
+currentVersion = "v1.0.1\n"
 newVersion = requests.get(url).text
 
 if newVersion != currentVersion:
