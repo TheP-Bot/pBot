@@ -5,12 +5,19 @@ Commands:
 Install termux. Then Use Commands bellow:
 
 pkg update
+
 pkg upgrade
+
 pkg install git
+
 pkg install python
+
 git clone https://github.com/TheP-Bot/pBot
+
 cd pBot
+
 python pBot.py
+
 
 
 Bot Commands:
